@@ -1,0 +1,10 @@
+<h1>Boards#index</h1>
+<p>Find me in app/views/boards/index.html.erb</p>
+
+<ul>
+<% @all_boards.each do |item| %>
+<li><%= item.name %></li>
+<% end %>
+</ul>
+
+<%= @all_boards.inspect %>
